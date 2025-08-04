@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Noble - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8 0%, #dbeafe 100%);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #1e293b 0%, #3b82f6 50%, #1e40af 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        header a {
+            color: #fbbf24;
+            font-weight: 500;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            animation: fadeInUp 1s ease-in-out;
+            transition: transform 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #1e293b;
+            border-left: 5px solid #3b82f6;
+            padding-left: 1rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            padding-left: 1.5rem;
+            line-height: 1.8;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #1e40af;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem;
+        }
+        .skill-card {
+            background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .skill-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alan Noble</h1>
+        <p>Java Full Stack Developer | Web Enthusiast | Problem Solver</p>
+        <p>📧 <a href="mailto:alannobleadi@gmail.com">alannobleadi@gmail.com</a> | 📱 +91 63603 97241 | <a href="https://www.linkedin.com/in/alan-noble-1a7822311/" target="_blank">LinkedIn</a></p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I'm a passionate Java Full Stack Developer with hands-on experience in building responsive web applications and robust backend systems. My strengths lie in problem-solving, collaborating in agile teams, and delivering efficient, scalable solutions. I am eager to contribute my skills in a challenging environment where technology and innovation converge.</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML, CSS, JavaScript</div>
+                <div class="skill-card">Core Java (OOP Principles)</div>
+                <div class="skill-card">SQL & Database Management</div>
+                <div class="skill-card">Responsive UI/UX Design</div>
+                <div class="skill-card">Problem Solving & Debugging</div>
+                <div class="skill-card">Agile Methodologies (Scrum, Sprints)</div>
+                <div class="skill-card">Version Control (Git)</div>
+                <div class="skill-card">API Integration</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <h3>Java Full Stack Intern | Jspiders – Bangalore</h3>
+            <p>Feb 2025 – Aug 2025</p>
+            <ul>
+                <li>Developed responsive web pages using HTML and CSS ensuring seamless user experience across devices.</li>
+                <li>Implemented backend modules using Core Java, adhering to OOP design principles for clean and maintainable code.</li>
+                <li>Integrated SQL queries into Java applications, optimizing data retrieval and database operations.</li>
+                <li>Collaborated in Agile sprints, participating in daily stand-ups and team retrospectives.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <h3>Digital Banking Management System with ATM Simulation</h3>
+            <ul>
+                <li>Designed and developed a Java-based ATM simulation application replicating real-world banking operations.</li>
+                <li>Implemented functionalities like user authentication, deposits, withdrawals, balance inquiries, and transaction histories.</li>
+                <li>Integrated a MySQL database for secure data storage and real-time transaction processing.</li>
+                <li>Focused on enhancing user experience with intuitive interfaces and optimized workflows.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>Freedom with AI Master Class</strong> – Learned prompt engineering and automation workflows using AI tools like ChatGPT for productivity enhancement.</li>
+                <li><strong>Java Programming Certification</strong> – Regional Technologies, covering Java fundamentals, OOP, and basic application development.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Excel Engineering College</strong> – Bachelor of Engineering in Computer Science and Engineering (7.6 CGPA) – 2025</li>
+                <li><strong>SR PU College</strong> – PCMC (93%) – 2021</li>
+                <li><strong>St. Norbert CBSE School</strong> – X (85.4%) – 2019</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>📧 <a href="mailto:alannobleadi@gmail.com">alannobleadi@gmail.com</a></p>
+            <p>📱 +91 63603 97241</p>
+            <p>🌐 <a href="https://www.linkedin.com/in/alan-noble-1a7822311/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </div>
+</body>
+</html>
